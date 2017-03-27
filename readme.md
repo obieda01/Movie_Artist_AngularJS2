@@ -18,6 +18,8 @@
 
 :movie_camera: Practice AngularJS 2 + TypeScript +Gulp to create a single web app "Artist Directory"
 
+![gif_file](Ex_Files_Learn_AngularJS_2/1.gif)
+
 ## Dependencies
 
 Before you get started, you need to make sure you have node.js installed. We'll be using `npm` to run this project (`npm` will be installed when you install node.js). You can [install node.js here](https://nodejs.org/en/).
