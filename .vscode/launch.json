@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "name": "test chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080/index.html",
+            // "url": "file:///C:/Program Files (x86)/Google/Chrome/Application/chrome.exe --remote-debugging-port=9222",
+            "sourceMaps": true,
+            "diagnosticLogging": true,
+            "webRoot": "wwwroot"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}
